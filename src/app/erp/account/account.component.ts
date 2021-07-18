@@ -17,8 +17,7 @@ export class AccountComponent implements OnInit {
   }
   formInit() {
     this.frmGroup = this.fb.group({
-      Username: [null, Validators.compose([Validators.required])],
-      Password: [null, Validators.compose([Validators.required])],
+   
 
     });
   }
